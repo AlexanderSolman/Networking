@@ -46,8 +46,8 @@ public class Server {
 			client = server.accept();
 			connect = new Connections(client);
 			connectionList.add(connect);
-			seperateClient = new Thread(connect);
-			seperateClient.start();
+			separateClient = new Thread(connect);
+			separateClient.start();
 		}
 	}
 
