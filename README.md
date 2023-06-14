@@ -1,1 +1,2 @@
-# Networking
+This program is a TCP-chat that is setup to run locally. There is no limit on the amount of users the chat can serve, other than external restrictions.
+The software is complete and no additional components are needed. In order to run the program just clone the repo, then run the server code, followed by the client code. All users have to be connected to the same local network in order to see each other.
